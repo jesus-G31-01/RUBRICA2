@@ -1,0 +1,15 @@
+{
+  "name": "pulso-mecanico-node",
+  "version": "1.0.0",
+  "description": "Sitio web Pulso Mecánico servido con Express para Azure App Service.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
