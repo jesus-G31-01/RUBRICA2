@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Sitio web Pulso Mecánico servido con Express para Azure App Service.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mysql2": "^3.9.0"
   },
   "engines": {
     "node": ">=18"
